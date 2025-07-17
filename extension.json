@@ -1,0 +1,23 @@
+---
+metatype: json
+---
+
+{
+  "identifier": "tech.gunderson.sn-theme-monochrome-dark",
+  "name": "Monochrome Dark",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0",
+  "description": "Bas personal theme for Standard Notes.",
+  "url": "https://cdn.jsdelivr.net/gh/Parkertg/sn-theme-monochrome-dark@v1.2/main.css",
+  "download_url": "https://github.com/Parkertg/sn-theme-monochrome-dark/archive/refs/tags/v1.2.zip",
+  "marketing_url": "https://github.com/Whitebunneh/sn-bas-theme",
+  "latest_url": "https://listed.to/p/PbDKXIMn8J",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#adadad",
+    "foreground_color": "#ffffff",
+    "border_color": "#ffffff"
+  },
+  "statusBar" : "dark-content"
+}

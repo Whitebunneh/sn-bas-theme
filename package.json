@@ -1,0 +1,18 @@
+  {
+    "identifier": "bas.dark.theme",
+    "name": "Bas Dark Theme",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "description": "Bas Dark Theme for Standard Notes",
+    "version": "v0.0.7",
+    "url": "https://basbouma.nl/sn/style.css",
+    "download_url": "https://github.com/Whitebunneh/sn-bas-theme/raw/refs/heads/main/sn-bas-theme-0.0.7.zip",
+    "latest_url": "https://listed.to/CkWVdPhzvs",
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#D79921",
+      "foreground_color": "#076678",
+      "border_color": "#D79921"
+    },
+    "statusBar": "dark-content"
+  }

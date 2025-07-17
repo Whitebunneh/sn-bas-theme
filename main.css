@@ -268,15 +268,15 @@ html { font-family: 'Inter', sans-serif; }
 
 @media screen and (min-width: 768px) {
     #items-column {
-        border-right: 1px solid var(--items-column-border-right-color);
+        border-right: 0px solid var(--items-column-border-right-color);
     }
 
     #navigation {
-        border-right: 1px solid var(--items-column-border-right-color);
+        border-right: 0px solid var(--items-column-border-right-color);
     }
 }
 
 
 .border-t {
-    border-top-width: 1px;
+    border-top-width: 0px;
 }

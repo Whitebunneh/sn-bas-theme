@@ -1,20 +1,11 @@
+
 :root {
-	  --background-1: #1d1e1e;
-    --background-2: #373737;
-	  --foreground-1: #dadada;
-    --foreground-2: #dadada;
-    --highlight-color: #a6babb;
-    --neutral-color: #75797a;
-    --success-color: #a0c150;
-    --warning-color: #c3845f;
-    --danger-color: #f92727;
-    --border-color: #404848;
-  
+
     --sn-stylekit-info-color: #adadad;
     --sn-stylekit-info-contrast-color: black;
     --sn-stylekit-info-color-darkened: #4a4e4e;
     --sn-stylekit-info-backdrop-color: #7878783b;
-	
+  
     --sn-stylekit-neutral-color: var(--neutral-color);
     --sn-stylekit-neutral-contrast-color: var(--background-2);
     
@@ -62,20 +53,8 @@
 
     --sn-stylekit-menu-border: 1px solid #606464;
     --sn-stylekit-grey-5: #4b4c4c;
-
-
-
-
-
 }
 
-#editor-title-bar > div.mb-2.flex.justify-between.md\:mb-0.md\:flex-nowrap.md\:gap-4.xl\:items-center.items-start.flex-wrap.gap-2 > div.note-view-options-buttons.flex.items-center.gap-3 > button:nth-child(1),
-#editor-title-bar > div.mb-2.flex.justify-between.md\:mb-0.md\:flex-nowrap.md\:gap-4.xl\:items-center.items-start.flex-wrap.gap-2 > div.note-view-options-buttons.flex.items-center.gap-3 > div > button,
-#editor-title-bar > div.mb-2.flex.justify-between.md\:mb-0.md\:flex-nowrap.md\:gap-4.xl\:items-center.items-start.flex-wrap.gap-2 > div.note-view-options-buttons.flex.items-center.gap-3 > button.sn-icon-button.flex.h-10.min-w-10.cursor-pointer.items-center.justify-center.focus\:bg-contras.rounded-full.border.border-solid.border-border.text-neutral.hover\:bg-contrast.md\:h-8.md\:min-w-8.toggled,
-#editor-title-bar > div.mb-2.flex.justify-between.md\:mb-0.md\:flex-nowrap.md\:gap-4.xl\:items-center.items-start.flex-wrap.gap-2 > div.note-view-options-buttons.flex.items-center.gap-3 > button.sn-icon-button.flex.h-10.min-w-10.cursor-pointer.items-center.justify-center.focus\:bg-contras.rounded-full.border.border-solid.border-border.text-neutral.hover\:bg-contrast.md\:h-8.md\:min-w-8 
-{
-  display: none;
-}
 
 :root .sk-app-bar {
   color: var(--foreground-2) !important;
@@ -97,45 +76,44 @@
   color: var(--danger-color);
 }
 :root .tags .tag > .tag-info > .tag-icon {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 :root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.tag-info > div.tag-icon {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 :root div.tag-info.level-1 > div.sk-circle.small.info {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 :root div.tag-info.level-1 > div.sk-circle.small.success {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 :root div.tag-info.level-2 > div.sk-circle.small.success {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 :root div.tag-info.level-3 > div.sk-circle.small.danger {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 :root div.tag-info.level-4 > div.sk-circle.small.warning {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 :root div.tag-info.level-5 > div.sk-circle.small.neutral {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 
-
-
 :root .tag-tree .self.selected:before {
-	background: none;
-	background-color: var(--sn-stylekit-secondary-contrast-background-color);
-	opacity: 1;
+  background: none;
+  background-color: var(--sn-stylekit-secondary-contrast-background-color);
+  opacity: 1;
 }
 
 :root .tag-tree .self .tag-info .action-menu {
-	margin-left: auto;
-	margin-right: 0;
+  margin-left: auto;
+  margin-right: 0;
 }
 :root .tags .tag > .menu:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
+
 
 
 
@@ -165,6 +143,7 @@ html { font-family: 'Inter', sans-serif; }
   --sn-stylekit-font-size-editor: 1.15rem;
   --sn-stylekit-accessory-tint-color-1: #0575e6;
   --text-selection-background-color: #0575e6;
+  --sn-stylekit-info-color: #0575e6;
   --items-column-background-color: #262626;
   --items-column-items-background-color: #262626;
   --background-1: #1d1e1e;
@@ -179,7 +158,10 @@ html { font-family: 'Inter', sans-serif; }
   --border-color: #404848;
   --navigation-item-selected-background-color: rgb(54, 54, 54);
   --navigation-column-background-color: #1e1e1e;
+  --sn-stylekit-scrollbar-track-border-color: var(--background-2);
+  --sn-stylekit-scrollbar-thumb-color: var(--background-2);
 }
+
 
 @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable, sans-serif; }
@@ -187,6 +169,13 @@ html { font-family: 'Inter', sans-serif; }
 
 .text-lg {
     font-family: Inter, sans-serif;
+  font-size: 1.125rem;
+}
+
+@media screen and (max-width: 768px) {
+  .text-lg {
+    font-size: 1.2rem;
+  }
 }
 
 .content-title-bar .title > .input {
@@ -247,11 +236,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 
-@media (min-width: 768px) {
-    .md\:block {
-        display: none;
-    }
-}
+
 
 #items-column {
     background-color: var(--items-column-background-color);
@@ -266,17 +251,70 @@ html { font-family: 'Inter', sans-serif; }
     background-color: var(--item-cell-selected-background-color);
 }
 
-@media screen and (min-width: 768px) {
-    #items-column {
-        border-right: 0px solid var(--items-column-border-right-color);
-    }
 
-    #navigation {
-        border-right: 0px solid var(--items-column-border-right-color);
-    }
+#items-column {
+    border-right: 0px solid var(--items-column-border-right-color);
 }
+
+#navigation {
+    border-right: 0px solid var(--items-column-border-right-color);
+}
+
+
 
 
 .border-t {
     border-top-width: 0px;
+}
+
+.mt-0\.5 {
+    margin-top: .125rem;
+    display: none !important;
+}
+
+
+.md\:bg-\[--popover-background-color\] {
+  background-color: #292929;
+}
+.md\:block {
+    display: block;
+}
+
+.bg-passive-5 {
+    background-color: var(--background-1);
+}
+
+
+.bg-passive-4 {
+    background-color: #000000bd;
+}
+
+
+/*
+#items-title-bar-container > div.section-title-bar-header.items-start.gap-1 > div > div.flex.min-w-0.flex-grow.flex-col.break-words.pt-1.lg\:pt-0 > div {
+  display: none;
+}
+*/
+
+
+.enabled\:hover\:text-foreground:hover:enabled,
+.hover\:text-foreground:hover {
+    color: var(--foreground-1);
+}
+
+.hover\:bg-passive-3:hover,
+.enabled\:hover\:bg-passive-3:hover:enabled {
+    background-color: #3b3b3b;
+}
+
+
+
+.bg-\[--preferences-background-color\],
+.md\:bg-\[--preferences-background-color\] {
+    background-color: var(--background-1);
+}
+
+
+.divide-passive-3>:not([hidden])~:not([hidden]) {
+    border-color: #262626;
 }

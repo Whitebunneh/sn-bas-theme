@@ -258,11 +258,13 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 .py-4 {
-  padding-top: 0.62rem;
+  padding-top: 0.72rem;
   padding-bottom: 0.62rem;
 }
 
-
+.mt-1 {
+    margin-top: .10rem;
+}
 
 
 #items-column .content-list-item.selected {
@@ -336,16 +338,14 @@ html { font-family: 'Inter', sans-serif; }
 .text-base {
     font-size: 0.9rem;
     line-height: 1.6rem;
-    font-weight: 350;
+
 }
 
-.mt-1 {
-    margin-top: .20rem;
-}
+
 
 .leading-\[1\.3\] {
   font-size: 1.1rem;
-  font-weight: 300;
+
 }
 
 .editor-content .editable, #editor-content .editable, #file-text-preview {
@@ -355,18 +355,17 @@ html { font-family: 'Inter', sans-serif; }
 @media screen and (max-width: 768px) {
   .text-lg {
     font-size: 1.04rem;
-    font-weight: 350;
   }
 
   .text-base {
       font-size: 0.9rem;
       line-height: 1.4rem;
-      font-weight: 350;
+
   }
 
   .leading-\[1\.3\] {
     font-size: 1.08rem;
-    font-weight: 400;
+
   }
 
   .editor-content .editable, #editor-content .editable, #file-text-preview {
@@ -380,11 +379,11 @@ html { font-family: 'Inter', sans-serif; }
   }
 
   .py-4 {
-    padding-top: 0.6rem;
+    padding-top: 0.7rem;
     padding-bottom: 0.6rem;
   }
   .mt-1 {
-    margin-top: .20rem;
+    margin-top: .10rem;
   }
 }
 

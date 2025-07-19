@@ -7,10 +7,10 @@ metatype: json
   "name": "Bas Dark Theme",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Bas personal theme for Standard Notes.",
-  "url": "https://cdn.jsdelivr.net/gh/Whitebunneh/sn-bas-theme@v1.2.2/main.css",
-  "download_url": "https://github.com/Whitebunneh/sn-bas-theme/raw/refs/heads/main/archive/sn-bas-theme-v1.2.2.zip",
+  "url": "https://cdn.jsdelivr.net/gh/Whitebunneh/sn-bas-theme@v1.2.3/main.css",
+  "download_url": "https://github.com/Whitebunneh/sn-bas-theme/raw/refs/heads/main/archive/sn-bas-theme-v1.2.3.zip",
   "marketing_url": "https://github.com/Whitebunneh/sn-bas-theme",
   "latest_url": "https://listed.to/p/PbDKXIMn8J",
   "dock_icon": {

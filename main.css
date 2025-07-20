@@ -1,59 +1,21 @@
+@import url('https://rsms.me/inter/inter.css');
 
-:root {
-
-    --sn-stylekit-info-color: #adadad;
-    --sn-stylekit-info-contrast-color: black;
-    --sn-stylekit-info-color-darkened: #4a4e4e;
-    --sn-stylekit-info-backdrop-color: #7878783b;
-  
-    --sn-stylekit-neutral-color: var(--neutral-color);
-    --sn-stylekit-neutral-contrast-color: var(--background-2);
-    
-    --sn-stylekit-success-color: var(--success-color);
-    --sn-stylekit-success-contrast-color: var(--background-2);
-    
-    --sn-stylekit-warning-color: var(--warning-color);
-    --sn-stylekit-warning-contrast-color: var(--background-2);
-    
-    --sn-stylekit-danger-color: var(--danger-color);
-    --sn-stylekit-danger-contrast-color: var(--background-2);
-    
-    --sn-stylekit-shadow-color: var(--background-2);
-    --sn-stylekit-background-color: var(--background-1);
-    --sn-stylekit-foreground-color: var(--foreground-1);
-    --sn-stylekit-border-color: var(--border-color);
-    
-    --sn-stylekit-paragraph-text-color: var(--foreground-1);
-    
-    --sn-stylekit-contrast-background-color: var(--background-2);
-    --sn-stylekit-contrast-foreground-color: var(--foreground-1);
-    --sn-stylekit-contrast-border-color: var(--border-color);
-    
-    --sn-stylekit-secondary-background-color: var(--background-2);
-    --sn-stylekit-secondary-foreground-color: var(--foreground-2);
-    --sn-stylekit-secondary-border-color: var(--border-color);
-    
-    --sn-stylekit-secondary-contrast-background-color: var(--border-color);
-    --sn-stylekit-secondary-contrast-foreground-color: var(--neutral-color);
-    --sn-stylekit-secondary-contrast-border-color: var(--border-color);
-    
-    --sn-stylekit-editor-background-color: var(--background-1);
-    --sn-stylekit-editor-foreground-color: var(--foreground-2);
-    
-    --sn-stylekit-input-placeholder-color: var(--foreground-2);
-    --sn-stylekit-input-border-color: var(--border-color);
-    
-    --sn-stylekit-scrollbar-track-border-color: var(--foreground-2);
-    --sn-stylekit-scrollbar-thumb-color: var(--foreground-2);
-    
-    --sn-desktop-titlebar-bg-color: var(--background-1);
-    --sn-desktop-titlebar-border-color: var(--border-color);
-    --sn-desktop-titlebar-ui-color: var(--foreground-1);
-    --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-
-    --sn-stylekit-menu-border: 1px solid #606464;
-    --sn-stylekit-grey-5: #4b4c4c;
+:root, body, html {
+  font-family: Inter, 'Inter', sans-serif!important;
+  font-feature-settings: 'liga' 1, 'calt' 1, 'tnum' 0, 'ss03' 0; /* fix for Chrome */
+  font-variant-numeric: tabular-nums;
+  text-rendering: geometricPrecision !important;
+  -webkit-font-smoothing: antialiased!important;
+  -moz-osx-font-smoothing: grayscale!important;
 }
+
+@supports (font-variation-settings: normal) {
+  :root, body, html {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+
 
 
 :root .sk-app-bar {
@@ -120,25 +82,69 @@
 
 
 
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
-
-*, body, :root {
+/*
+*, body, :root, .editor-content .editable, #editor-content .editable, #file-text-preview {
   font-family: 'Inter', sans-serif!important; 
   text-rendering: geometricPrecision !important;
     -webkit-font-smoothing: antialiased!important;
     -moz-osx-font-smoothing: grayscale!important;
-
-
-}
+}*/
 
 :root {
-  font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+
+  --sn-stylekit-info-color: #adadad;
+  --sn-stylekit-info-contrast-color: black;
+  --sn-stylekit-info-color-darkened: #4a4e4e;
+  --sn-stylekit-info-backdrop-color: #7878783b;
+
+  --sn-stylekit-neutral-color: var(--neutral-color);
+  --sn-stylekit-neutral-contrast-color: var(--background-2);
   
+  --sn-stylekit-success-color: var(--success-color);
+  --sn-stylekit-success-contrast-color: var(--background-2);
+  
+  --sn-stylekit-warning-color: var(--warning-color);
+  --sn-stylekit-warning-contrast-color: var(--background-2);
+  
+  --sn-stylekit-danger-color: var(--danger-color);
+  --sn-stylekit-danger-contrast-color: var(--background-2);
+  
+  --sn-stylekit-shadow-color: var(--background-2);
+  --sn-stylekit-background-color: var(--background-1);
+  --sn-stylekit-foreground-color: var(--foreground-1);
+  --sn-stylekit-border-color: var(--border-color);
+  
+  --sn-stylekit-paragraph-text-color: var(--foreground-1);
+  
+  --sn-stylekit-contrast-background-color: var(--background-2);
+  --sn-stylekit-contrast-foreground-color: var(--foreground-1);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  
+  --sn-stylekit-secondary-background-color: var(--background-2);
+  --sn-stylekit-secondary-foreground-color: var(--foreground-2);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  
+  --sn-stylekit-secondary-contrast-background-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--neutral-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  
+  --sn-stylekit-editor-background-color: var(--background-1);
+  --sn-stylekit-editor-foreground-color: var(--foreground-2);
+  
+  --sn-stylekit-input-placeholder-color: var(--foreground-2);
+  --sn-stylekit-input-border-color: var(--border-color);
+  
+  --sn-stylekit-scrollbar-track-border-color: var(--foreground-2);
+  --sn-stylekit-scrollbar-thumb-color: var(--foreground-2);
+  
+  --sn-desktop-titlebar-bg-color: var(--background-1);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--foreground-1);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+
+  --sn-stylekit-menu-border: 1px solid #606464;
+  --sn-stylekit-grey-5: #4b4c4c;
+
   --sn-desktop-titlebar-height: 40px;
   --sn-desktop-titlebar-icon-font-size: 18px;
   --sn-stylekit-sans-serif-font: "Inter", sans-serif;
@@ -165,9 +171,6 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 
-@supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
-}
 
 .text-lg {
   font-size: 1.125rem;
@@ -331,7 +334,7 @@ html { font-family: 'Inter', sans-serif; }
 
 
 .text-base {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.6rem;
 
 }
@@ -344,6 +347,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 .editor-content .editable, #editor-content .editable, #file-text-preview {
+  font-feature-settings: 'tnum' 1; /* fix for Chrome */
     font-size: 1.12rem;
 }
 

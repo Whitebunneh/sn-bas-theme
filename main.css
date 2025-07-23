@@ -348,6 +348,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
+  min-height: 1.3rem;
 }
 
 .editor-content .editable, #editor-content .editable, #file-text-preview {

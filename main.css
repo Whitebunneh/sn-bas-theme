@@ -394,9 +394,18 @@
   .editor-content .editable, #editor-content .editable, #file-text-preview {
     padding: 10px 15px 15px 20px;
   }
-  
+
   .pt-3 {
     padding-top: .5rem;
+  }
+
+  .mr-3.min-w-10 {
+    min-width: 2.5rem; 
+  }
+
+  .mr-3 {
+    margin-right: 0rem;
+    margin-left: -0.5rem
   }
 }
 
@@ -432,9 +441,6 @@
   color: var(--items-column-items-background-color);
 }
 
-.mr-3.min-w-10 {
-  min-width: 0.5rem;
-}
 
 .content-title-bar {
     padding-bottom: 0px;

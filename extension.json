@@ -7,7 +7,7 @@ metatype: json
   "name": "Bas Dark Theme",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Bas personal theme for Standard Notes.",
   "url": "https://whitebunneh.github.io/sn-bas-theme/main.css",
   "download_url": "https://github.com/Whitebunneh/sn-bas-theme/raw/refs/heads/main/sn-bas-theme.zip",

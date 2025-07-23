@@ -246,23 +246,34 @@
   margin: 5px 3px;
 }
 
+
 .pr-4 {
-  padding-right:0.7rem;
+  padding-right:0.6rem;
 }
 
 #items-column .infinite-scroll {
   padding-right: 7px;
+  padding-left: 2px
 }
 
 .py-4 {
-  padding-top: 0.72rem;
-  padding-bottom: 0.62rem;
+  padding-top: 0.70rem;
+  padding-bottom: 0.60rem;
+}
+
+.p-4 {
+     padding: 0rem;
+}
+
+.mr-2 {
+    margin-right: 0rem; 
 }
 
 .mt-1 {
     margin-top: .10rem;
     color: grey;
 }
+
 
 
 #items-column .content-list-item.selected {

@@ -390,6 +390,10 @@
   #items-column #items-title-bar-container {
       padding: .8125rem .8125rem .5rem .8125rem;
   }
+
+  .editor-content .editable, #editor-content .editable, #file-text-preview {
+    padding: 10px 15px 15px 20px;
+  }
 }
 
 .font-semibold {
@@ -422,4 +426,12 @@
 
 .text-2xl.font-semibold.text-text, .lg\:w-6 {
   color: var(--items-column-items-background-color);
+}
+
+.mr-3.min-w-10 {
+  min-width: 0.5rem;
+}
+
+.content-title-bar {
+    padding-bottom: 0px;
 }

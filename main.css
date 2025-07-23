@@ -16,6 +16,8 @@
 }
 
 
+
+
 :root .sk-app-bar {
   color: var(--foreground-2) !important;
 }
@@ -385,11 +387,6 @@
     margin-top: .10rem;
   }
 
-  .editor-content .editable, #editor-content .editable, #file-text-preview {
-    padding: 10px 15px 15px 15px;
-  }
-
-
   #items-column #items-title-bar-container {
       padding: .8125rem .8125rem .5rem .8125rem;
   }
@@ -402,3 +399,24 @@
 .text-info-contrast {
     color: var(--background-1);
 }
+
+#items-column #items-title-bar-container {
+    padding: .8125rem .8125rem .2rem .8125rem;
+}
+
+.w-15 {
+  width: var(3.2rem);
+}
+
+.h-15 {
+  height: var(3.2rem);
+}
+
+.border {
+    border-width: 0px;
+}
+
+.translucent-ui .translucent-ui\:border-\[--popover-border-color\] {
+    border-width: 1px;
+}
+

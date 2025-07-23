@@ -248,12 +248,13 @@
 
 
 .pr-4 {
-  padding-right:0.6rem;
+  padding-right:0.54rem;
 }
 
 #items-column .infinite-scroll {
   padding-right: 7px;
-  padding-left: 2px
+  padding-left: 2px;
+  scrollbar-width: thin;
 }
 
 .py-4 {
@@ -344,12 +345,15 @@
 
 .leading-\[1\.3\] {
   font-size: 1.1rem;
-
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 
 .editor-content .editable, #editor-content .editable, #file-text-preview {
   font-feature-settings: 'tnum' 1; /* fix for Chrome */
-    font-size: 1.12rem;
+  font-size: 1.12rem;
+  scrollbar-width: thin;
 }
 
 

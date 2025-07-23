@@ -394,6 +394,10 @@
   .editor-content .editable, #editor-content .editable, #file-text-preview {
     padding: 10px 15px 15px 20px;
   }
+  
+  .pt-3 {
+    padding-top: .5rem;
+  }
 }
 
 .font-semibold {

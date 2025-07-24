@@ -1,6 +1,6 @@
 /* CRITICAL STYLES - Load first to prevent white flash */
 html {
-  background-color: #1d1e1e;
+  background-color: #1d1d1d;
   color: #dadada;
 }
 
@@ -50,7 +50,7 @@ input, textarea, button, select,
 :root {
   --sn-stylekit-info-color: #adadad;
   --sn-stylekit-info-contrast-color: black;
-  --sn-stylekit-info-color-darkened: #4a4e4e;
+  --sn-stylekit-info-color-darkened: #4d4d4d;
   --sn-stylekit-info-backdrop-color: #7878783b;
   --sn-stylekit-neutral-color: var(--neutral-color);
   --sn-stylekit-neutral-contrast-color: var(--background-2);
@@ -84,27 +84,28 @@ input, textarea, button, select,
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-  --sn-stylekit-menu-border: 1px solid #606464;
-  --sn-stylekit-grey-5: #4b4c4c;
+  --sn-stylekit-menu-border: 1px solid #606060;
+  --sn-stylekit-grey-5: #4b4b4b;
   --sn-desktop-titlebar-height: 40px;
   --sn-desktop-titlebar-icon-font-size: 18px;
   --sn-stylekit-sans-serif-font: "InterVariable", sans-serif;
   --sn-stylekit-font-size-editor: 1.15rem;
-  --sn-stylekit-accessory-tint-color-1: #0575e6;
-  --text-selection-background-color: #0575e6;
-  --sn-stylekit-info-color: #0575e6;
+  --sn-stylekit-accessory-tint-color-1: var(--theme-colour);
+  --text-selection-background-color: var(--theme-colour);
+  --sn-stylekit-info-color: var(--theme-colour);
   --items-column-background-color: #232323;
   --items-column-items-background-color: #232323;
-  --background-1: #1d1e1e;
+  --theme-colour: #007fff;
+  --background-1: #1d1d1d;
   --background-2: #373737;
-  --foreground-1: #dadada;
-  --foreground-2: #dadada;
-  --highlight-color: #a6babb;
-  --neutral-color: #75797a;
+  --foreground-1: #e0e0e0;
+  --foreground-2: #e0e0e0;
+  --highlight-color: #b0b0b0;
+  --neutral-color: #787878;
   --success-color: #50b43e;
   --warning-color: #c3845f;
   --danger-color: #f92727;
-  --border-color: #404848;
+  --border-color: #484848;
   --navigation-item-selected-background-color: rgb(54, 54, 54);
   --navigation-column-background-color: #1e1e1e;
 }
@@ -198,7 +199,6 @@ input, textarea, button, select,
 #items-column .infinite-scroll {
   padding-right: 7px;
   padding-left: 2px;
-  scrollbar-width: thin;
 }
 
 #items-column .content-list-item.selected {
@@ -225,8 +225,18 @@ input, textarea, button, select,
 #file-text-preview {
   font-feature-settings: 'tnum' 1;
   font-size: 1.12rem;
-  scrollbar-width: thin;
 }
+
+
+/* SCROLL BAR */
+.editor-content .editable,
+#editor-content .editable,
+#file-text-preview,
+#items-column .infinite-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--sn-stylekit-scrollbar-thumb-color) var(--items-column-background-color);
+}
+
 
 /* UTILITY CLASSES */
 .text-lg { font-size: 1.125rem; }

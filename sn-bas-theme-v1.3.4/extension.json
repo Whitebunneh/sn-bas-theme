@@ -1,0 +1,23 @@
+---
+metatype: json
+---
+
+{
+  "identifier": "bas.dark.theme",
+  "name": "Bas Dark Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.3.4",
+  "description": "Bas personal theme for Standard Notes.",
+  "url": "https://whitebunneh.github.io/sn-bas-theme/main.css",
+  "download_url": "https://github.com/Whitebunneh/sn-bas-theme/raw/refs/heads/main/sn-bas-theme.zip",
+  "marketing_url": "https://github.com/Whitebunneh/sn-bas-theme",
+  "latest_url": "https://listed.to/p/PbDKXIMn8J",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#adadad",
+    "foreground_color": "#ffffff",
+    "border_color": "#ffffff"
+  },
+  "statusBar" : "dark-content"
+}

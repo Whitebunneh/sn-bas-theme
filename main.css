@@ -254,7 +254,7 @@
 #items-column .infinite-scroll {
   padding-right: 7px;
   padding-left: 2px;
-  scrollbar-width: thin;
+  /*scrollbar-width: thin;*/
 }
 
 .py-4 {
@@ -354,7 +354,7 @@
 .editor-content .editable, #editor-content .editable, #file-text-preview {
   font-feature-settings: 'tnum' 1; /* fix for Chrome */
   font-size: 1.12rem;
-  scrollbar-width: thin;
+  /*scrollbar-width: thin;*/
 }
 
 
